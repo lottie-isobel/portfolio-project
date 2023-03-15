@@ -34,3 +34,66 @@ h2 {
   padding: 12px 20px;
   border-radius: 4px;
 }
+
+.btn-branding:hover {
+  background-color: var(--secondary-color);
+  color: var(--branding-color);
+  border: 1px solid var(--branding-color);
+}
+
+.project-header {
+  font-family: var(--heading-font-family);
+  font-size: 46px;
+}
+
+.project-description {
+  font-size: 18px;
+  line-height: 1.75;
+}
+
+.btn-branding-outline {
+  color: var(--branding-color);
+  border: 1px solid var(--branding-color);
+  font-size: 18px;
+  line-height: 27px;
+  padding: 12px 20px;
+  border-radius: 4px;
+}
+
+.btn-branding-outline:hover {
+  background-color: var(--branding-color);
+  color: white;
+}
+
+.project-text {
+  padding: 120px 60px;
+}
+
+@media (max-width: 900px) {
+  .project-text {
+    padding: none;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 38px;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .hero {
+    padding: 100px;
+  }
+
+  .project-header {
+    font-size: 38px;
+  }
+
+  .discription-wrap {
+    margin: 0;
+  }
+}
