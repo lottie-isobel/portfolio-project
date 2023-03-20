@@ -69,6 +69,30 @@ h2 {
   padding: 120px 60px;
 }
 
+.about-hero img {
+  width: 100%;
+  height: auto;
+  border-radius: 4%;
+}
+
+.about-hero {
+  padding: 150px;
+}
+
+.about-hero-content {
+  margin: 30px;
+}
+
+.about-hero h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+
+.about-hero h2 {
+  font-size: 18px;
+  font-family: var(--content-font-family);
+}
+
 @media (max-width: 900px) {
   .project-text {
     padding: none;
@@ -95,5 +119,10 @@ h2 {
 
   .discription-wrap {
     margin: 0;
+  }
+
+  .about-hero {
+    text-align: center;
+    padding: 20px;
   }
 }
