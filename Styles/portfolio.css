@@ -19,6 +19,19 @@ h2 {
   line-height: 2;
 }
 
+.navbar-custom {
+  background-color: var(--secondary-color);
+}
+
+.navbar-brand {
+  padding-left: 20px;
+}
+
+.navbar-nav {
+  margin-left: auto;
+  padding-right: 20px;
+}
+
 .hero {
   margin: 0;
   padding: 150px;
@@ -110,12 +123,18 @@ h2 {
   margin: 30px;
 }
 
-.contact p {
+.card {
+  background-color: var(--secondary-color);
+  padding: 50px;
+  border-radius: 30px;
+}
+
+.card p {
   font-size: 24px;
   text-decoration: none;
 }
 
-.contact h3 {
+.card h3 {
   text-align: start;
 }
 
