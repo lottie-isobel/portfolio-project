@@ -23,13 +23,17 @@ h2 {
   background-color: var(--secondary-color);
 }
 
-.navbar-brand {
-  padding-left: 20px;
-}
-
 .navbar-nav {
   margin-left: auto;
   padding-right: 20px;
+}
+
+li.active {
+  font-weight: bold;
+}
+
+li.hover {
+  font-weight: bold;
 }
 
 .hero {
