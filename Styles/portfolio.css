@@ -43,7 +43,7 @@ li.active {
 
 .hero {
   margin: 0;
-  padding: 150px;
+  padding: 120px;
   background-color: var(--secondary-color);
   text-align: center;
 }
@@ -98,8 +98,8 @@ img .me {
 }
 
 .content-container {
-  padding: 150px;
-  margin-top: 200px;
+  padding: 60px;
+  margin-top: 80px;
 }
 
 .content-container h1 {
